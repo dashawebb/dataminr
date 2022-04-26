@@ -1,3 +1,1 @@
-export interface ToggleTypes {
-
-}
+export interface ToggleTypes {}

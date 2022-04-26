@@ -1,2 +1,34 @@
-@font-face{font-family:Ubuntu;font-style:normal;font-weight:400;src:url(/static/media/Ubuntu-R.7f0b42d1.ttf)}@font-face{font-family:Ubuntu;font-style:normal;font-weight:700;src:url(/static/media/Ubuntu-B.008e6bc4.ttf)}button,input:focus,textarea:focus{border:none;outline:none;text-decoration:none}body{margin:0;padding:0;font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}code{font-family:source-code-pro,Menlo,Monaco,Consolas,Courier New,monospace}body{background:#fff}
+@font-face {
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: 400;
+    src: url(/static/media/Ubuntu-R.7f0b42d1.ttf);
+}
+@font-face {
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: 700;
+    src: url(/static/media/Ubuntu-B.008e6bc4.ttf);
+}
+button,
+input:focus,
+textarea:focus {
+    border: none;
+    outline: none;
+    text-decoration: none;
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell,
+        Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, Courier New, monospace;
+}
+body {
+    background: #fff;
+}
 /*# sourceMappingURL=main.c61e6834.chunk.css.map */
