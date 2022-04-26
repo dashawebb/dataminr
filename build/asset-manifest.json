@@ -1,14 +1,14 @@
 {
-  "main.css": "/static/css/main.382b5f6c.chunk.css",
-  "main.js": "/static/js/main.c2ca2bf7.chunk.js",
-  "main.js.map": "/static/js/main.c2ca2bf7.chunk.js.map",
+  "main.css": "/static/css/main.c61e6834.chunk.css",
+  "main.js": "/static/js/main.f5229720.chunk.js",
+  "main.js.map": "/static/js/main.f5229720.chunk.js.map",
   "static/js/1.40eed039.chunk.js": "/static/js/1.40eed039.chunk.js",
   "static/js/1.40eed039.chunk.js.map": "/static/js/1.40eed039.chunk.js.map",
   "runtime~main.js": "/static/js/runtime~main.229c360f.js",
   "runtime~main.js.map": "/static/js/runtime~main.229c360f.js.map",
-  "static/css/main.382b5f6c.chunk.css.map": "/static/css/main.382b5f6c.chunk.css.map",
+  "static/css/main.c61e6834.chunk.css.map": "/static/css/main.c61e6834.chunk.css.map",
   "static/media/index.css": "/static/media/Ubuntu-R.7f0b42d1.ttf",
   "index.html": "/index.html",
-  "precache-manifest.dd9dff8aaa74646e10ab83eedde18350.js": "/precache-manifest.dd9dff8aaa74646e10ab83eedde18350.js",
+  "precache-manifest.de197a32d01a384cef84ea3174d0abc2.js": "/precache-manifest.de197a32d01a384cef84ea3174d0abc2.js",
   "service-worker.js": "/service-worker.js"
 }
