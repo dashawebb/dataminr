@@ -1,37 +1,31 @@
-import React, { useEffect, useState } from 'react'
+import React, { useState } from 'react'
 import cx from 'classnames'
 import styles from './Toggle.module.less'
+import { IToggleTypes } from './Toggle.types'
 
-export const Toggle = (props: any) => {
-    const {
-        children,
-        classes,
-        className,
-        disabled,
-        label,
-        readOnly,
-        testIds,
-        size,
-        ...otherInputProps
-    } = props
+export const Toggle: React.FC<IToggleTypes> = (props) => {
+    const { on, onToggle, inactive } = props
 
-    const [checked, setChecked] = useState(true)
+    const [checked, setChecked] = useState(on)
 
-    const handleChange = () => setChecked(!checked)
-
-    useEffect(() => {
-        console.log(checked)
-    }, [checked])
+    const handleChange = () => {
+        if (!inactive) {
+            const value = !checked
+            onToggle(value)
+            setChecked(value)
+        }
+    }
 
     return (
         <label className={styles.root}>
             <input
                 type="checkbox"
-                defaultChecked={checked}
+                readOnly={inactive}
+                checked={inactive ? false: checked}
                 className={styles.input}
                 onChange={handleChange}
             />
-            <div className={cx(styles.switch, checked && styles.checked)}>
+            <div className={cx(styles.switch, checked && !inactive && styles.checked)}>
                 <div className={styles.switchSlider} />
             </div>
         </label>
